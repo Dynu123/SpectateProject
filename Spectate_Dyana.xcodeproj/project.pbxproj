@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C1748044812CDEE4E26681C /* Spectate_DyanaTests-Spectate_DyanaMocks.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933D408CDCD114D2E11C6913 /* Spectate_DyanaTests-Spectate_DyanaMocks.generated.swift */; };
+		867C21C427CE8EEC00C68DF5 /* Mockingbird in Frameworks */ = {isa = PBXBuildFile; productRef = 867C21C327CE8EEC00C68DF5 /* Mockingbird */; };
+		869033BD27C92E5900B43D68 /* Spectate_DyanaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869033BC27C92E5900B43D68 /* Spectate_DyanaApp.swift */; };
+		869033BF27C92E5900B43D68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869033BE27C92E5900B43D68 /* ContentView.swift */; };
+		869033C127C92E5D00B43D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869033C027C92E5D00B43D68 /* Assets.xcassets */; };
+		869033C427C92E5D00B43D68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869033C327C92E5D00B43D68 /* Preview Assets.xcassets */; };
+		869033CB27C932E700B43D68 /* PriceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869033CA27C932E700B43D68 /* PriceViewModel.swift */; };
+		869033CD27C9334700B43D68 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869033CC27C9334700B43D68 /* Price.swift */; };
+		869033D027C9840000B43D68 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 869033CF27C9840000B43D68 /* Kingfisher */; };
+		869033D227C9889D00B43D68 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869033D127C9889D00B43D68 /* DetailView.swift */; };
+		869033D427CA70DE00B43D68 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869033D327CA70DE00B43D68 /* ErrorView.swift */; };
+		869033D627CA97E600B43D68 /* Date+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869033D527CA97E600B43D68 /* Date+extension.swift */; };
+		869033D827CA981100B43D68 /* Double+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869033D727CA981100B43D68 /* Double+extension.swift */; };
+		869033DA27CAC62800B43D68 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869033D927CAC62800B43D68 /* Service.swift */; };
+		869033E127CAFD4D00B43D68 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869033E027CAFD4D00B43D68 /* AppError.swift */; };
+		869033E327CBA10000B43D68 /* LoadingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869033E227CBA10000B43D68 /* LoadingAnimationView.swift */; };
+		869033E527CBA1D900B43D68 /* ActivityIndicatorVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869033E427CBA1D900B43D68 /* ActivityIndicatorVIew.swift */; };
+		869033E727CC447A00B43D68 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869033E627CC447A00B43D68 /* Endpoint.swift */; };
+		869033E927CC44A900B43D68 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869033E827CC44A900B43D68 /* API.swift */; };
+		8690340027CD4B6D00B43D68 /* Spectate_DyanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869033FF27CD4B6D00B43D68 /* Spectate_DyanaTests.swift */; };
+		86A14B3827CD8734008B8F10 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A14B3727CD8733008B8F10 /* ServiceError.swift */; };
+		86A14B3A27CD875D008B8F10 /* FailureResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A14B3927CD875D008B8F10 /* FailureResponse.swift */; };
+		86A14B3C27CE422C008B8F10 /* PriceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A14B3B27CE422C008B8F10 /* PriceRepository.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8690340127CD4B6D00B43D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 869033B127C92E5900B43D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 869033B827C92E5900B43D68;
+			remoteInfo = Spectate_Dyana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		869033B927C92E5900B43D68 /* Spectate_Dyana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spectate_Dyana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		869033BC27C92E5900B43D68 /* Spectate_DyanaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spectate_DyanaApp.swift; sourceTree = "<group>"; };
+		869033BE27C92E5900B43D68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		869033C027C92E5D00B43D68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		869033C327C92E5D00B43D68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		869033CA27C932E700B43D68 /* PriceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewModel.swift; sourceTree = "<group>"; };
+		869033CC27C9334700B43D68 /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		869033D127C9889D00B43D68 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		869033D327CA70DE00B43D68 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		869033D527CA97E600B43D68 /* Date+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+extension.swift"; sourceTree = "<group>"; };
+		869033D727CA981100B43D68 /* Double+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+extension.swift"; sourceTree = "<group>"; };
+		869033D927CAC62800B43D68 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		869033E027CAFD4D00B43D68 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		869033E227CBA10000B43D68 /* LoadingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimationView.swift; sourceTree = "<group>"; };
+		869033E427CBA1D900B43D68 /* ActivityIndicatorVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorVIew.swift; sourceTree = "<group>"; };
+		869033E627CC447A00B43D68 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		869033E827CC44A900B43D68 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		869033FD27CD4B6D00B43D68 /* Spectate_DyanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Spectate_DyanaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		869033FF27CD4B6D00B43D68 /* Spectate_DyanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spectate_DyanaTests.swift; sourceTree = "<group>"; };
+		86A14B3727CD8733008B8F10 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		86A14B3927CD875D008B8F10 /* FailureResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureResponse.swift; sourceTree = "<group>"; };
+		86A14B3B27CE422C008B8F10 /* PriceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRepository.swift; sourceTree = "<group>"; };
+		933D408CDCD114D2E11C6913 /* Spectate_DyanaTests-Spectate_DyanaMocks.generated.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Spectate_DyanaTests-Spectate_DyanaMocks.generated.swift"; path = "MockingbirdMocks/Spectate_DyanaTests-Spectate_DyanaMocks.generated.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		869033B627C92E5900B43D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869033D027C9840000B43D68 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869033FA27CD4B6D00B43D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867C21C427CE8EEC00C68DF5 /* Mockingbird in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39DB7DA50A7921AA6C34EE45 /* Generated Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				933D408CDCD114D2E11C6913 /* Spectate_DyanaTests-Spectate_DyanaMocks.generated.swift */,
+			);
+			name = "Generated Mocks";
+			sourceTree = "<group>";
+		};
+		867C21C527CEC52900C68DF5 /* PriceRepo */ = {
+			isa = PBXGroup;
+			children = (
+				86A14B3B27CE422C008B8F10 /* PriceRepository.swift */,
+			);
+			path = PriceRepo;
+			sourceTree = "<group>";
+		};
+		867C21C627CEC54E00C68DF5 /* FailureHandler */ = {
+			isa = PBXGroup;
+			children = (
+				86A14B3927CD875D008B8F10 /* FailureResponse.swift */,
+				869033E027CAFD4D00B43D68 /* AppError.swift */,
+				86A14B3727CD8733008B8F10 /* ServiceError.swift */,
+			);
+			path = FailureHandler;
+			sourceTree = "<group>";
+		};
+		869033B027C92E5900B43D68 = {
+			isa = PBXGroup;
+			children = (
+				869033BB27C92E5900B43D68 /* Spectate_Dyana */,
+				869033FE27CD4B6D00B43D68 /* Spectate_DyanaTests */,
+				869033BA27C92E5900B43D68 /* Products */,
+				39DB7DA50A7921AA6C34EE45 /* Generated Mocks */,
+			);
+			sourceTree = "<group>";
+		};
+		869033BA27C92E5900B43D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				869033B927C92E5900B43D68 /* Spectate_Dyana.app */,
+				869033FD27CD4B6D00B43D68 /* Spectate_DyanaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		869033BB27C92E5900B43D68 /* Spectate_Dyana */ = {
+			isa = PBXGroup;
+			children = (
+				869033BC27C92E5900B43D68 /* Spectate_DyanaApp.swift */,
+				869033DF27CAFBAB00B43D68 /* Helpers */,
+				867C21C627CEC54E00C68DF5 /* FailureHandler */,
+				869033DE27CAFB9300B43D68 /* Networking */,
+				867C21C527CEC52900C68DF5 /* PriceRepo */,
+				869033DD27CAFB8200B43D68 /* Model */,
+				869033DB27CAFA9800B43D68 /* View */,
+				869033DC27CAFB7600B43D68 /* ViewModel */,
+				869033C027C92E5D00B43D68 /* Assets.xcassets */,
+				869033C227C92E5D00B43D68 /* Preview Content */,
+			);
+			path = Spectate_Dyana;
+			sourceTree = "<group>";
+		};
+		869033C227C92E5D00B43D68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				869033C327C92E5D00B43D68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		869033DB27CAFA9800B43D68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				869033BE27C92E5900B43D68 /* ContentView.swift */,
+				869033D127C9889D00B43D68 /* DetailView.swift */,
+				869033D327CA70DE00B43D68 /* ErrorView.swift */,
+				869033E227CBA10000B43D68 /* LoadingAnimationView.swift */,
+				869033E427CBA1D900B43D68 /* ActivityIndicatorVIew.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		869033DC27CAFB7600B43D68 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				869033CA27C932E700B43D68 /* PriceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		869033DD27CAFB8200B43D68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				869033CC27C9334700B43D68 /* Price.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		869033DE27CAFB9300B43D68 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				869033D927CAC62800B43D68 /* Service.swift */,
+				869033E627CC447A00B43D68 /* Endpoint.swift */,
+				869033E827CC44A900B43D68 /* API.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		869033DF27CAFBAB00B43D68 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				869033D527CA97E600B43D68 /* Date+extension.swift */,
+				869033D727CA981100B43D68 /* Double+extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		869033FE27CD4B6D00B43D68 /* Spectate_DyanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				869033FF27CD4B6D00B43D68 /* Spectate_DyanaTests.swift */,
+			);
+			path = Spectate_DyanaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		869033B827C92E5900B43D68 /* Spectate_Dyana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869033C727C92E5D00B43D68 /* Build configuration list for PBXNativeTarget "Spectate_Dyana" */;
+			buildPhases = (
+				869033B527C92E5900B43D68 /* Sources */,
+				869033B627C92E5900B43D68 /* Frameworks */,
+				869033B727C92E5900B43D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spectate_Dyana;
+			packageProductDependencies = (
+				869033CF27C9840000B43D68 /* Kingfisher */,
+			);
+			productName = Spectate_Dyana;
+			productReference = 869033B927C92E5900B43D68 /* Spectate_Dyana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		869033FC27CD4B6D00B43D68 /* Spectate_DyanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8690340327CD4B6D00B43D68 /* Build configuration list for PBXNativeTarget "Spectate_DyanaTests" */;
+			buildPhases = (
+				CDC650E41A862404CB588970 /* Generate Mockingbird Mocks */,
+				869033F927CD4B6D00B43D68 /* Sources */,
+				869033FA27CD4B6D00B43D68 /* Frameworks */,
+				869033FB27CD4B6D00B43D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8690340227CD4B6D00B43D68 /* PBXTargetDependency */,
+			);
+			name = Spectate_DyanaTests;
+			packageProductDependencies = (
+				867C21C327CE8EEC00C68DF5 /* Mockingbird */,
+			);
+			productName = Spectate_DyanaTests;
+			productReference = 869033FD27CD4B6D00B43D68 /* Spectate_DyanaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		869033B127C92E5900B43D68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					869033B827C92E5900B43D68 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					869033FC27CD4B6D00B43D68 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 869033B827C92E5900B43D68;
+					};
+				};
+			};
+			buildConfigurationList = 869033B427C92E5900B43D68 /* Build configuration list for PBXProject "Spectate_Dyana" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 869033B027C92E5900B43D68;
+			packageReferences = (
+				869033CE27C9840000B43D68 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				867C21C227CE8EEC00C68DF5 /* XCRemoteSwiftPackageReference "mockingbird" */,
+			);
+			productRefGroup = 869033BA27C92E5900B43D68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				869033B827C92E5900B43D68 /* Spectate_Dyana */,
+				869033FC27CD4B6D00B43D68 /* Spectate_DyanaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		869033B727C92E5900B43D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869033C427C92E5D00B43D68 /* Preview Assets.xcassets in Resources */,
+				869033C127C92E5D00B43D68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869033FB27CD4B6D00B43D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CDC650E41A862404CB588970 /* Generate Mockingbird Mocks */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Mockingbird Mocks";
+			outputPaths = (
+				"$(SRCROOT)/MockingbirdMocks/Spectate_DyanaTests-Spectate_DyanaMocks.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -eu\n\n# Prevent Xcode 13 from running this script while indexing.\n[[ \"${ACTION}\" == \"indexbuild\" ]] && exit 0\n\n# Infer the derived data location from the build environment.\n[[ -z \"${DERIVED_DATA+x}\" ]] && DERIVED_DATA=\"$(echo \"${BUILD_ROOT}\" | sed -n 's|\\(.*\\)/Build/.*|\\1|p')\"\n\n\"${DERIVED_DATA}/SourcePackages/checkouts/mockingbird/mockingbird\" generate --targets \"Spectate_Dyana\" --outputs \"${SRCROOT}/MockingbirdMocks/Spectate_DyanaTests-Spectate_DyanaMocks.generated.swift\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		869033B527C92E5900B43D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A14B3827CD8734008B8F10 /* ServiceError.swift in Sources */,
+				869033CD27C9334700B43D68 /* Price.swift in Sources */,
+				869033D427CA70DE00B43D68 /* ErrorView.swift in Sources */,
+				869033E127CAFD4D00B43D68 /* AppError.swift in Sources */,
+				869033E727CC447A00B43D68 /* Endpoint.swift in Sources */,
+				869033E527CBA1D900B43D68 /* ActivityIndicatorVIew.swift in Sources */,
+				869033BF27C92E5900B43D68 /* ContentView.swift in Sources */,
+				86A14B3A27CD875D008B8F10 /* FailureResponse.swift in Sources */,
+				869033E927CC44A900B43D68 /* API.swift in Sources */,
+				869033CB27C932E700B43D68 /* PriceViewModel.swift in Sources */,
+				869033D827CA981100B43D68 /* Double+extension.swift in Sources */,
+				869033DA27CAC62800B43D68 /* Service.swift in Sources */,
+				86A14B3C27CE422C008B8F10 /* PriceRepository.swift in Sources */,
+				869033D227C9889D00B43D68 /* DetailView.swift in Sources */,
+				869033D627CA97E600B43D68 /* Date+extension.swift in Sources */,
+				869033E327CBA10000B43D68 /* LoadingAnimationView.swift in Sources */,
+				869033BD27C92E5900B43D68 /* Spectate_DyanaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869033F927CD4B6D00B43D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8690340027CD4B6D00B43D68 /* Spectate_DyanaTests.swift in Sources */,
+				6C1748044812CDEE4E26681C /* Spectate_DyanaTests-Spectate_DyanaMocks.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8690340227CD4B6D00B43D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 869033B827C92E5900B43D68 /* Spectate_Dyana */;
+			targetProxy = 8690340127CD4B6D00B43D68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		869033C527C92E5D00B43D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		869033C627C92E5D00B43D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		869033C827C92E5D00B43D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spectate_Dyana/Preview Content\"";
+				DEVELOPMENT_TEAM = FA2SLC6S8Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dyana.Spectate-Dyana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		869033C927C92E5D00B43D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spectate_Dyana/Preview Content\"";
+				DEVELOPMENT_TEAM = FA2SLC6S8Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dyana.Spectate-Dyana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8690340427CD4B6D00B43D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FA2SLC6S8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dyana.Spectate-DyanaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spectate_Dyana.app/Spectate_Dyana";
+			};
+			name = Debug;
+		};
+		8690340527CD4B6D00B43D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FA2SLC6S8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dyana.Spectate-DyanaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spectate_Dyana.app/Spectate_Dyana";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		869033B427C92E5900B43D68 /* Build configuration list for PBXProject "Spectate_Dyana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869033C527C92E5D00B43D68 /* Debug */,
+				869033C627C92E5D00B43D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869033C727C92E5D00B43D68 /* Build configuration list for PBXNativeTarget "Spectate_Dyana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869033C827C92E5D00B43D68 /* Debug */,
+				869033C927C92E5D00B43D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8690340327CD4B6D00B43D68 /* Build configuration list for PBXNativeTarget "Spectate_DyanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8690340427CD4B6D00B43D68 /* Debug */,
+				8690340527CD4B6D00B43D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		867C21C227CE8EEC00C68DF5 /* XCRemoteSwiftPackageReference "mockingbird" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/birdrides/mockingbird";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.20.0;
+			};
+		};
+		869033CE27C9840000B43D68 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		867C21C327CE8EEC00C68DF5 /* Mockingbird */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 867C21C227CE8EEC00C68DF5 /* XCRemoteSwiftPackageReference "mockingbird" */;
+			productName = Mockingbird;
+		};
+		869033CF27C9840000B43D68 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 869033CE27C9840000B43D68 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 869033B127C92E5900B43D68 /* Project object */;
+}
